@@ -13,7 +13,7 @@ app.use(express.json())
 app.use(require('./router/auth'))
 
 //free host
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 5000;
 
 
 
